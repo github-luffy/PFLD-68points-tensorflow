@@ -13,10 +13,10 @@ Implementation of PFLD For 68 Facial Landmarks By Tensorflow
 
   3.move `Mirror68.txt` to `./data/WFLW/annotations/`
   
-  ~~~shell
-      $ cd ./data/WFLW 
-      $ python3 WFLW_SetPreparation68.py
-  ~~~
+   ~~~shell
+    $ cd ./data/WFLW 
+    $ python3 WFLW_SetPreparation68.py
+   ~~~
  
 - **300W Dataset**
 
@@ -28,10 +28,10 @@ Implementation of PFLD For 68 Facial Landmarks By Tensorflow
 
   3.move `Mirror68.txt` to `./data/300W/annotations/`
   
-  ~~~shell
-      $ cd ./data/300W 
-      $ python3 300W_SetPreparation68.py
-  ~~~
+   ~~~shell
+    $ cd ./data/300W 
+    $ python3 300W_SetPreparation68.py
+   ~~~
  
 - **300VW Dataset** 
 
@@ -40,23 +40,23 @@ Implementation of PFLD For 68 Facial Landmarks By Tensorflow
   After completing the steps of each data set above, you can run the code `merge_files.py` directly .  
   
    ~~~shell
-      $ cd ./data
-      $ python3 merge_files.py
+    $ cd ./data
+    $ python3 merge_files.py
   ~~~
   
 ### training & testing
 
-training :
+  training :
 
-~~~shell
-$ sh train.sh
-~~~
+  ~~~shell
+   $ sh train.sh
+  ~~~
 
-testing:
+  testing:
 
-~~~shell
-$ python3 camera.py
-~~~
+  ~~~shell
+   $ python3 camera.py
+  ~~~
 
 ### reference: 
 
